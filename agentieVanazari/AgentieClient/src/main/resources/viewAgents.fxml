@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ViewAgentsController">
+   <children>
+      <TableView fx:id="tabelAgenti" layoutX="40.0" layoutY="71.0" prefHeight="367.0" prefWidth="521.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="122.0" text="ID" />
+          <TableColumn fx:id="usernameColumn" prefWidth="219.0" text="Username" />
+            <TableColumn fx:id="passwordColumn" prefWidth="179.0" text="Password" />
+        </columns>
+      </TableView>
+      <Label layoutX="264.0" layoutY="22.0" text="Agents">
+         <font>
+            <Font name="Comic Sans MS Italic" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

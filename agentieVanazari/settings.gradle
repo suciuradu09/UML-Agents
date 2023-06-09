@@ -1,0 +1,6 @@
+rootProject.name = 'agentieVanazari'
+include 'AgentieService'
+include 'AgentieModel'
+include 'AgentiePersistance'
+include 'AgentieClient'
+

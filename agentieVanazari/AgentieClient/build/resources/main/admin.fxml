@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.AdminController">
+   <children>
+      <Button fx:id="buttonAdaugare" layoutX="100.0" layoutY="47.0" mnemonicParsing="false" onAction="#adaugareButtonPressed" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #ffc629;" text="Adaugare agent">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonStergere" layoutX="100.0" layoutY="125.0" mnemonicParsing="false" onAction="#stergereButtonPressed" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #ffc629;" text="Stergere agent">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonModificare" layoutX="100.0" layoutY="207.0" mnemonicParsing="false" onAction="#modificareButtonPressed" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #ffc629;" text="Modificare agent">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonVizualizare" layoutX="100.0" layoutY="285.0" mnemonicParsing="false" onAction="#vizualizareButtonPressed" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #ffc629;" text="Vizualizare agenti">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutButton" layoutX="256.0" layoutY="371.0" mnemonicParsing="false" onAction="#onLogoutButtonPressed" prefHeight="29.0" prefWidth="88.0" text="Logout" />
+   </children>
+</AnchorPane>
